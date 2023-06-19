@@ -66,7 +66,7 @@ Steps:
 >   alpaca.get_bars(
 >>      tickers_list,
 >>      timeframe"1Day",
->>      start = pd.Timestamp('yyyy-mm-dd',     tz='America/New_York').isoformat(),
+>>      start = pd.Timestamp('yyyy-mm-dd', tz='America/New_York').isoformat(),
 >>      end = pd.Timestamp('yyyy-mm-dd',tz='America/New_York').isoformat()
 >   ).df
 5. Combine the returned tickers' data (DataFrame indexed in timestamp-dates containing multi-columns of info under "symbol" ticker), into one df:
