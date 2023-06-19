@@ -37,8 +37,10 @@ This work makes use of the class.
 [![Free Crypto API Documentation](Images/alternative.me.png)](https://alternative.me/crypto/api/)
 
 Use the free crypto API to retrieve crypto prices:
->   pd.request.get(url).json\
->   url for Bitcoin: https://api.alternative.me/v2/ticker/Bitcoin/?convert=CAD\
+>   pd.request.get(url).json
+
+>   url for Bitcoin: https://api.alternative.me/v2/ticker/Bitcoin/?convert=CAD
+
 >   url for Ethereum: https://api.alternative.me/v2/ticker/Ethereum/?convert=CAD
 
 ## [Alpaca API to retrieve stock and bonds information](https://alpaca.markets/)
